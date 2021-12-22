@@ -1,0 +1,34 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcServiceFeedReader2";
+import "google/protobuf/empty.proto";
+package mainservice;
+ 
+
+ 
+// The feed service definition.
+service FeedService {
+	 rpc GetFeed (google.protobuf.Empty) returns (FeedResponce);
+}
+ 
+
+// The response message containing list of items.
+message FeedResponce {
+	repeated FeedModel FeedItems = 1;
+}
+
+
+// The response message containing the feed content.
+message FeedModel {
+
+	string title = 1;
+	string summary = 2;
+	string link = 3;
+	string publishDate = 4;
+
+}
+
+
+
+
+ 

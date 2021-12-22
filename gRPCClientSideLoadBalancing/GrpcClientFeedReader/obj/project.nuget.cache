@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "XRa5M9Mwvhr5Kjp3av7XAzNmKOf2AYYf4N4v2QYiQHOfXEM/IKkjBh17Q5RNuxM4nst7L44ui0x1PQHkZInlvQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Rebin\\source\\repos\\gRPCClientSideLoadBalancing\\GrpcClientFeedReader\\GrpcClientFeedReader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Rebin\\.nuget\\packages\\google.protobuf\\3.19.1\\google.protobuf.3.19.1.nupkg.sha512",
+    "C:\\Users\\Rebin\\.nuget\\packages\\grpc.core.api\\2.40.0\\grpc.core.api.2.40.0.nupkg.sha512",
+    "C:\\Users\\Rebin\\.nuget\\packages\\grpc.net.client\\2.40.0-pre1\\grpc.net.client.2.40.0-pre1.nupkg.sha512",
+    "C:\\Users\\Rebin\\.nuget\\packages\\grpc.net.common\\2.40.0-pre1\\grpc.net.common.2.40.0-pre1.nupkg.sha512",
+    "C:\\Users\\Rebin\\.nuget\\packages\\grpc.tools\\2.43.0-pre1\\grpc.tools.2.43.0-pre1.nupkg.sha512",
+    "C:\\Users\\Rebin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.3\\microsoft.extensions.logging.abstractions.3.0.3.nupkg.sha512",
+    "C:\\Users\\Rebin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

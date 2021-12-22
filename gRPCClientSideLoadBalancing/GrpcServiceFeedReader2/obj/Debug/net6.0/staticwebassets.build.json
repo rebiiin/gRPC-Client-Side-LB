@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6zn4GejsiArw94A+MD65ZPMlUqWuKay+m/88yrO0JBk=",
+  "Source": "GrpcServiceFeedReader2",
+  "BasePath": "_content/GrpcServiceFeedReader2",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
