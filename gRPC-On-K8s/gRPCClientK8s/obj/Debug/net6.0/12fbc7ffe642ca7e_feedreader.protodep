@@ -1,0 +1,3 @@
+obj\Debug\net6.0\Protos/Feedreader.cs \
+obj\Debug\net6.0\Protos/FeedreaderGrpc.cs: C:/Users/Rebin/.nuget/packages/grpc.tools/2.43.0-pre1/build/native/include/google/protobuf/empty.proto\
+ Protos/feedreader.proto

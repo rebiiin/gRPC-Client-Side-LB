@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grpc-service-pod
+  labels:
+    app: grpc-service-app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: grpc-service-app
+  template:
+    metadata:
+      labels:
+        app: grpc-service-app
+    spec:
+      containers:
+      - name: grpcservice
+        image: rebinoq/grpcservicek8s:v1
+        resources:
+            requests:
+              memory: "64Mi"
+              cpu: "125m"
+            limits:
+              memory: "128Mi" 
+              cpu: "250m"
+        ports:
+        - containerPort: 80

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "DGO/JeLxSOnP+16IrqoCeBoSJjOG+1l6NHjcTq3F8yk=",
+  "Source": "GrpcServiceK8s",
+  "BasePath": "_content/GrpcServiceK8s",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

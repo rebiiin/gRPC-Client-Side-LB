@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grpc-client-pod
+  labels:
+    app: grpc-client-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grpc-client-app
+  template:
+    metadata:
+      labels:
+        app: grpc-client-app
+    spec:
+      containers:
+      - name: grpcclient
+        image: rebinoq/grpcclientk8s:v1
+        resources:
+            requests:
+              memory: "64Mi"
+              cpu: "125m"
+            limits:
+              memory: "128Mi" 
+              cpu: "250m"
+        ports:
+        - containerPort: 80
+        env:
+        - name: k8s-svc-url
+          value: dns:///grpc-headless-svc
